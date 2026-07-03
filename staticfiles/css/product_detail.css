@@ -1,24 +1,33 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 60px;
-    padding: 60px;
+    padding: 40px;
 }
 .container img{
     width: 400px;
     height: 400px;
-    box-shadow: 0 0 40px plum;
-    justify-content: center;
+    box-shadow: 0 0 40px purple;
+}
+.content{
+    width: 400px;
 }
 .btn{
     display: flex;
 }
 .btn button{
     width: 150px;
-    padding: 10px;
-    background-color: teal;
+    padding: 40px;
+    background-color: lightcoral;
     color: lightblue;
     margin: 20px;
     border-radius: 20px;
+}
+body{
+    background-color: teal;
+    color: lightblue;
 }
