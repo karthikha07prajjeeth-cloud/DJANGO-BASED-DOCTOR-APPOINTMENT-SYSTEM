@@ -6,7 +6,7 @@ h1{
 
 header{
     background-color: teal;
-    color: lightblue;
+    color: black;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -55,12 +55,12 @@ nav a{
 
 footer{
     background-color: teal;
-    color: lightblue;
+    color: black;
     text-align:center;
     padding:15px;
 }                                                                                           This is the CSS
 #about-section {
-    background-color: darkblue;
+    background-color: lightblue;
     padding: 50px;
     min-height: 450px; 
     display: flex;
