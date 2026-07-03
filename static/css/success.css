@@ -1,11 +1,12 @@
 body{
+    background-color: teal
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 h1{
-    background-color: teal;
+    background-color: lightblue;
     padding: 30px;
     width: 250px;
     height: 100px;
