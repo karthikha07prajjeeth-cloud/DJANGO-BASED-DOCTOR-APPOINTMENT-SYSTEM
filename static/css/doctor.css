@@ -1,0 +1,24 @@
+body{
+    background-color: teal;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: lightblue;
+    color:black;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+}   

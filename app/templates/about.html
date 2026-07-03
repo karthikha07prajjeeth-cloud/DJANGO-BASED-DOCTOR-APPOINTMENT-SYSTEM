@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Amazon</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Price</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-section" style="min-height: 450px; background-color: pink; padding: 50px; display: flex; justify-content: center; align-items: center;">
+        <div class="text">
+            <h1 style="color: black; text-align: center;color: purple">About Us</h1>
+            <p style="color: black; font-size: 18px; line-height: 1.8;">
+            Welcome to Amazon Toy Store! We are dedicated to bringing unique and creative 
+            toys for children and collectors alike. Our products are carefully selected to 
+            ensure quality, durability, and fun for everyone. We believe every toy tells a 
+            story and brings joy to its owner. Our store was founded with a passion for 
+            bringing smiles to people of all ages. We source our products from trusted 
+            manufacturers who share our commitment to quality and safety. Whether you are 
+            looking for a gift for a child or a collectible for yourself, we have something 
+            special for everyone. Our collection includes a wide variety of toys ranging from 
+            action figures and character-inspired collectibles to educational toys and creative 
+            play sets. Every product in our store goes through a strict quality check before 
+            it reaches our customers. We take pride in offering toys that are not only fun but 
+            also safe and durable for long-lasting enjoyment. Our team is always working hard 
+            to bring new and exciting products to our store so that our customers always have 
+            something fresh to look forward to. We also offer special discounts and offers 
+            during festive seasons and celebrations to make our products even more accessible. 
+            Customer satisfaction is our top priority and we always strive to provide the best 
+            shopping experience. Visit us today and explore our amazing collection of toys and 
+            collectibles that are sure to bring a smile to your face!
+        </p>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Amazon Toy Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

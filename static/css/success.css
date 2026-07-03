@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    background-color: plum;
+    padding: 30px;
+    width: 250px;
+    height: 100px;
+    animation: zoom 1s ease-in-out 1;
+}
+@keyframes zoom{
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform: scale(1);
+    }
+}

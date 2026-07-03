@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Amazon</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="{% url 'about'%}">About</a></li>
+                <li><a href="{% url 'doctor' %}">Doctor</a></li>
+                <li><a href="{% url 'success' %}">Success</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="gallery">
+        <div class="text">
+            <h1 style="color:purple;">Hi, This is an interesting toy!</h1>
+            <p>This toy is a unique and creative product inspired by popular character
+            designs that have gained attention among people of different age groups.
+            The toy is carefully designed with attractive colors, detailed features, 
+            and a realistic appearance that makes it stand out from ordinary toys. 
+            It is made using quality materials to ensure durability and long-lasting use.
+            The product is suitable for both children and collectors who enjoy keeping 
+            interesting figures as part of their collection. Its eye-catching design makes
+            it a great decorative item for study tables, shelves, and display cabinets. 
+            The toy has become popular because of its distinctive look and the excitement
+            it brings to fans of character-inspired collectibles. It is lightweight, easy
+            to carry, and can also be gifted on special occasions such as birthdays,
+            festivals, and celebrations. The affordable price makes it accessible to a 
+            wide range of customers while still providing excellent value and quality. 
+            With its growing popularity, attractive design, and customer-friendly pricing, 
+            this toy continues to be a favorite choice for people looking for something fun,
+            creative, and memorable.
+           </p>
+        </div>
+        <div class="about-image">
+                <img src="{%static 'image/image.png'%}" alt="">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Amazon Toy Store. All Rights Reserved.</p>
+    </footer>
+    <a href="{%url 'about' %}"><button>about</button></a>
+</body>
+</html>

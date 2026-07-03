@@ -1,0 +1,8 @@
+header{
+    background-color: black;
+    color: yellow;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}

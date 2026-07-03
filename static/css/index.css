@@ -1,0 +1,68 @@
+h1{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color: #4A148C;
+    color: #F8BBD0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+#gallery{
+    background-color:#F8BBD0;
+    color: black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px;
+    min-height:450px;
+}
+
+.text{
+    width:60%;
+}
+
+.text h1{
+    margin-bottom:20px;
+}
+
+.text p{
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.about-image img{
+    width:375px;
+    height:375px;
+    border-radius:10px;
+}
+
+footer{
+    background-color: #4A148C;
+    color: #F8BBD0;
+    text-align:center;
+    padding:15px;
+}                                                                                           This is the CSS
+#about-section {
+    background-color: darkblue;
+    padding: 50px;
+    min-height: 450px; 
+    display: flex;
+    align-items: center;
+}
