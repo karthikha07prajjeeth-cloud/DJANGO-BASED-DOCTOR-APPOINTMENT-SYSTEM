@@ -7,7 +7,7 @@
 .container img{
     width: 400px;
     height: 400px;
-    box-shadow: 0 0 40px crimson;
+    box-shadow: 0 0 40px purple;
     justify-content: center;
 }
 .btn{
@@ -20,9 +20,8 @@
     color: lightblue;
     margin: 20px;
     border-radius: 20px;
-    color: crimson;
 }
 body{
-    background-color: lightpink;
-    color: teal;
+    background-color: teal;
+    color: lightblue;
 }
