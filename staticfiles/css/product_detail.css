@@ -18,6 +18,7 @@ html, body{
 }
 .btn{
     display: flex;
+    color: lightcoral;
 }
 .btn button{
     width: 150px;
@@ -29,5 +30,5 @@ html, body{
 }
 body{
     background-color: teal;
-    color: lightblue;
+    color: black
 }
