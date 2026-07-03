@@ -5,8 +5,8 @@ h1{
 }
 
 header{
-    background-color: #4A148C;
-    color: #F8BBD0;
+    background-color: teal;
+    color: lightblue;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -24,7 +24,7 @@ nav a{
 }
 
 #gallery{
-    background-color:#F8BBD0;
+    background-color:lightblue;
     color: black;
     display:flex;
     justify-content:space-between;
@@ -54,8 +54,8 @@ nav a{
 }
 
 footer{
-    background-color: #4A148C;
-    color: #F8BBD0;
+    background-color: teal;
+    color: lightblue;
     text-align:center;
     padding:15px;
 }                                                                                           This is the CSS
