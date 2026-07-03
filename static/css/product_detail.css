@@ -1,14 +1,21 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 80px;
     padding: 40px;
 }
 .container img{
     width: 400px;
     height: 400px;
-    box-shadow: 0 0 40px purple;
-    justify-content: center;
+    box-shadow: 0 0 40px hotpink;
+}
+.content{
+    width: 400px;
 }
 .btn{
     display: flex;
@@ -16,8 +23,8 @@
 .btn button{
     width: 150px;
     padding: 40px;
-    background-color: lightcoral;
-    color: lightblue;
+    background-color: lightblue;
+    color: black;
     margin: 20px;
     border-radius: 20px;
 }

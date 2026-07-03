@@ -18,13 +18,12 @@ html, body{
 }
 .btn{
     display: flex;
-    color: lightcoral;
 }
 .btn button{
     width: 150px;
     padding: 40px;
     background-color: lightcoral;
-    color: lightblue;
+    color: lightcoral
     margin: 20px;
     border-radius: 20px;
 }
