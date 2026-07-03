@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 60px;
+    gap: 60px;
+    padding: 70px;
 }
 .container img{
     width: 400px;
@@ -15,7 +16,7 @@
 }
 .btn button{
     width: 150px;
-    padding: 10px;
+    padding: 40px;
     background-color: lightcoral;
     color: lightblue;
     margin: 20px;

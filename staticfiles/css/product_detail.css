@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 60px;
     padding: 60px;
 }
 .container img{
@@ -16,13 +17,13 @@
 .btn button{
     width: 150px;
     padding: 10px;
-    background-color: lightcoral;
+    background-color: teal;
     color: lightblue;
     margin: 20px;
     border-radius: 20px;
     color: crimson;
 }
 body{
-    background-color: lightpink;
-    color: teal;
+    background-color: teal;
+    color: lightblue;
 }
